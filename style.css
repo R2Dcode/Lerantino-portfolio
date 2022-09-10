@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 /* Header */
@@ -11,6 +12,7 @@ header {
   align-items: center;
   background-color: #414a4c;
   padding: 20px;
+  color: aqua;
   
 }
 
@@ -24,9 +26,24 @@ header {
 }
 
 /* Main */
+#about {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  
+}
 
 /* About */
 
 /* Work */
 
 /* Contact */
+#contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  color: lightpink;
+  margin-left: 100px;
+  
+
+}
